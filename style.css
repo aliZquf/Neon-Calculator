@@ -1,0 +1,46 @@
+body{
+    background-color: hsl(323 21% 16%);
+}
+
+form{
+    text-align: center;
+    margin-top:200px;
+}
+
+input[type="button"]{
+    background-color:hsl(323 21% 16%);
+    color:hsl(317 100% 54%);
+    font-size:17px;
+    margin: 7px;
+    padding: 30px;
+    border-radius:20px;
+    cursor: pointer;
+    border-style: solid;
+    border: hsl(317 100% 54%) 0.125em solid;
+    box-shadow: 0 0 0.5em hsl(317 100% 54%);
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3);
+    position: relative;
+
+     
+
+
+}
+
+input[type="text"]{
+    font-size:32px;
+    padding-top: 40px;
+    color:#170055;
+    border-radius:10px;
+}
+
+.neon-left{
+    display: inline-block;
+}
+
+input[type="button"]:hover
+{
+    background-color:hsl(317 100% 54%);
+    color:hsl(323 21% 16%)
+}
+
+
